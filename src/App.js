@@ -69,7 +69,6 @@ function App() {
     }
   ); 
   
-
   const handleOpen = () => {
     setData({
       title:'',
