@@ -24,9 +24,6 @@ jobs:
     steps:
     - name: Deploy Test
       uses: appleboy/ssh-action@master
-      with:
-        node-version: 14
-        cache: 'yarn'
     - run: yarn install
     - run: yarn build
     - run: mkdir ~/.ssh
